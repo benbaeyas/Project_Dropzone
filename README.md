@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Dropzone - Marketplace untuk Gaming
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Selamat datang di Dropzone, merupakan marketplace yang berfokus pada jual beli produk virtual seperti item game, akun, mata uang dalam game, serta berbagai jenis Voucer game. Proyek ini dibangun menggunakan React dan Tailwind CSS untuk menciptakan antarmuka yang cepat, responsif, dan menarik secara visual.
+
+## 🚀 Fitur Utama
+
+-   **Navbar Dinamis:** Navbar transparan yang berubah menjadi solid dengan animasi halus saat halaman di-scroll.
+-   **Slider Promosi:** Carousel gambar yang responsif dan dapat berjalan otomatis untuk menampilkan promosi terbaru.
+-   **Antarmuka Tab:** Konten yang terorganisir dalam tab (misalnya, "Top Up" dan "Items") untuk navigasi yang mudah.
+-   **Skeleton Loading:** Animasi kerangka (skeleton) yang elegan saat konten dimuat, meningkatkan pengalaman pengguna.
+-   **Slider Penawaran Khusus:** Section horizontal yang dapat digeser untuk menampilkan kartu-kartu penawaran khusus.
+-   **Grid Produk Responsif:** Tampilan grid yang rapi untuk daftar produk, menyesuaikan jumlah kolom berdasarkan ukuran layar.
+-   **Header Section Sticky:** Judul section yang "menempel" di bawah navbar saat digulir untuk menjaga konteks.
+-   **Desain Full-Responsive:** Didesain agar terlihat dan berfungsi dengan baik di berbagai perangkat, dari desktop hingga mobile.
+
+## 🛠️ Teknologi yang Digunakan
+
+-   **React:** Library JavaScript untuk membangun antarmuka pengguna yang interaktif.
+-   **Tailwind CSS:** Framework CSS utility-first untuk desain yang cepat dan kustom.
+-   **Create React App:** Lingkungan standar untuk memulai pengembangan aplikasi React.
 
 ## Available Scripts
 
-In the project directory, you can run:
+Di dalam direktori proyek, Anda dapat menjalankan:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Menjalankan aplikasi dalam mode pengembangan.\
+Buka [http://localhost:3000](http://localhost:3000) untuk melihatnya di browser Anda.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Halaman akan dimuat ulang secara otomatis saat Anda membuat perubahan.\
+Anda juga dapat melihat kesalahan lint di konsol.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Menjalankan pengujian dalam mode tanya jawab interaktif.\
+Lihat bagian tentang [menjalankan pengujian](https://facebook.github.io/create-react-app/docs/running-tests) untuk informasi lebih lanjut.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Membangun aplikasi untuk produksi ke dalam folder `build`.\
+Ini akan menggabungkan React dalam mode produksi dan mengoptimalkan build untuk performa terbaik.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Build akan diminify dan nama file akan menyertakan hash.\
+Aplikasi Anda siap untuk di-deploy!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Lihat bagian tentang [deployment](https://facebook.github.io/create-react-app/docs/deployment) untuk informasi lebih lanjut.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Catatan: ini adalah operasi satu arah. Setelah Anda `eject`, Anda tidak dapat kembali!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Jika Anda tidak puas dengan alat bangun dan pilihan konfigurasi, Anda dapat `eject` kapan saja. Perintah ini akan menghapus ketergantungan bangun tunggal dari proyek Anda.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Sebagai gantinya, ia akan menyalin semua file konfigurasi dan ketergantungan transitif (webpack, Babel, ESLint, dll) langsung ke proyek Anda sehingga Anda memiliki kontrol penuh atasnya. Semua perintah kecuali `eject` akan tetap berfungsi, tetapi akan mengarah ke skrip yang disalin sehingga Anda dapat menyesuaikannya. Pada titik ini, Anda sendiri.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Anda tidak perlu pernah menggunakan `eject`. Set fitur yang dikurasi cocok untuk penyebaran kecil dan menengah, dan Anda tidak perlu merasa wajib untuk menggunakan fitur ini. Namun, kami memahami bahwa alat ini tidak akan berguna jika Anda tidak dapat menyesuaikannya ketika Anda sudah siap untuk itu.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Anda dapat belajar lebih lanjut dalam [dokumentasi Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Untuk belajar React, lihat [dokumentasi React](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Bagian ini telah dipindahkan ke sini: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
 ### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Bagian ini telah dipindahkan ke sini: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Bagian ini telah dipindahkan ke sini: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 ### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Bagian ini telah dipindahkan ke sini: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Bagian ini telah dipindahkan ke sini: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bagian ini telah dipindahkan ke sini: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

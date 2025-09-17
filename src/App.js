@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Slider from './components/Slider';
+import Tabs from './components/Tabs';
+import SpecialOffers from './components/SpecialOffers';
+import ForYou from './components/ForYou';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="Dropzone">
+      <Navbar />
+      <div className='mt-[70px] md:mt-[80px]'>
+        <Slider />
+        <Tabs />
+        <SpecialOffers />
+        <ForYou />
+        <Footer />
+      </div>
     </div>
   );
 }
