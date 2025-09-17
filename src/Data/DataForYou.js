@@ -1,4 +1,3 @@
-import Offer1 from '../Assets/Icons/CODM.png';
 import WDP from '../Assets/Offers/WDP.png';
 import DM568 from '../Assets/Offers/DM 568.png';
 import DM296 from '../Assets/Offers/DM 296.png';
