@@ -28,7 +28,8 @@ const Slider = () => {
             <img
               key={idx}
               src={img}
-              alt={`Slider image ${idx + 1}`}
+              // Hapus kata "image" dari sini
+              alt={`Slider ${idx + 1}`}
               className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${current === idx ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
             />
           ))}
